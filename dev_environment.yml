@@ -1,0 +1,11 @@
+name: nr-pods
+channels:
+  - defaults
+dependencies:
+- python=3.7
+- pip:
+  - flake8
+  - autopep8
+  - twine
+  - -r requirements.txt
+  - -e .
